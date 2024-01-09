@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 from PIL.Image import Image
 
-movies_list = pickle.load(open('movie_dict.pkl','rb'))
+# movies_list = pickle.load(open('movie_dict.pkl','rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
 
 
